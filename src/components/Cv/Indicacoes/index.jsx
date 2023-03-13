@@ -1,6 +1,6 @@
 import style from './style.module.css'
 import Image from 'next/image'
-import Leticia from './leticia.jpg'
+import Leticia from './Leticia.jpg'
 import Laudir from './Laudir.jpg'
 
 export const Indicacoes = () => {
