@@ -1,4 +1,5 @@
 import ListaFilmes from "@/components/Filmes"
+import { Suspense } from "react"
 
 async function getData() {
     const nomedofilme = "star wars"
@@ -14,9 +15,11 @@ async function getData() {
 export default async function Filmes() {
     const movies = await getData();
     return (
-        <div>
+        <div className="container">
             <div>Lista de filmes</div>
-            <ListaFilmes movies={movies} />
+            <Suspense fallback={<div>Carregando...</div>}>
+                <ListaFilmes movies={movies} />
+            </Suspense>
         </div>
     )
 }
