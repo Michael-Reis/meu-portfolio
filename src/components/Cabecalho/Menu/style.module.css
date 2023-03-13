@@ -1,0 +1,35 @@
+.boxMenu {
+  padding: 30px;
+  border-right: 1px solid rgb(91, 89, 89);
+}
+
+.boxMenuUltimo {
+  padding: 30px;
+}
+
+.boxMenu:hover {
+  background: linear-gradient(to top, #f10861, #4b0395);
+}
+
+.iconeMenu {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+.boxGeralMenu {
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #2b2e35;
+}
+
+.menuActive {
+  background: linear-gradient(to top, #f10861, #4b0395);
+}
+
+@media (max-width: 950px) {
+  .boxGeralMenu {
+    justify-content: flex-start !important;
+    overflow-x: scroll;
+  }
+}

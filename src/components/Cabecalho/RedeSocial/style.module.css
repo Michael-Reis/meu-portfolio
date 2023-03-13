@@ -1,0 +1,19 @@
+.boxSocial {
+    background-color: #42454a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.boxSocial:hover {
+    background: linear-gradient(to top, #f10861, #4b0395);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.iconeSocial {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}

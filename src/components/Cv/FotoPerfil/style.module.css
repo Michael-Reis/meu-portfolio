@@ -1,0 +1,30 @@
+
+.cabecalho{
+  width: 200px;
+  height: 200px;
+  margin-top: -150px;
+}
+
+.circularImagem {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #ffffff, #09f10d) border-box;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.circularImagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.selo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}

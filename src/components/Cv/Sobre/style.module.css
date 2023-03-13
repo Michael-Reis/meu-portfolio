@@ -1,0 +1,15 @@
+.cardInfo {
+    background-color: #2b2e35;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.cardInfo h5{
+    position: absolute;
+    top: -12px;
+}
+
+.descricao {
+    margin-bottom: 0px !important;
+}
+

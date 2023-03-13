@@ -1,0 +1,53 @@
+.cardInfo {
+    /* background-color: #2b2e35; */
+    border-radius: 15px;
+    padding: 25px;
+}
+
+
+.cardInfo h5 {
+    position: absolute;
+    top: -12px;
+}
+
+.cardIndicacao {
+    background-color: #2b2e35;
+    border-radius: 15px;
+    padding: 0px 25px 25px 25px;
+    width: 300px;
+    height: 350px;
+}
+
+.cardIndicacao:nth-child(1) img {
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.espacamentoDireita {
+    margin-right: 20px;
+}
+
+.containerIndicacao {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.containerIndicacao::-webkit-scrollbar {
+    width: 12px;
+}
+
+.containerIndicacao::-webkit-scrollbar-track {
+    background: rgb(45, 45, 45);
+}
+
+.containerIndicacao::-webkit-scrollbar-thumb {
+    background-color: rgb(154, 154, 154);
+    border-radius: 20px;
+}
+
+
+
+.cardIndicacao div img {
+    width: 100px;
+    height: 100px;
+}

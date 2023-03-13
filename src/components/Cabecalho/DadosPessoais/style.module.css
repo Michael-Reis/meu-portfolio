@@ -1,0 +1,9 @@
+.dadosPessoais div :first-child {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.dadosPessoais div :nth-last-child(1) {
+    color: #91949b;
+}
