@@ -5,6 +5,8 @@ import { Sobre } from '@/components/Cv/Sobre'
 import { Experiencia } from '@/components/Cv/Experiencia'
 import { Educacao } from '@/components/Cv/Educacao'
 import { Indicacoes } from '@/components/Cv/Indicacoes'
+import { Tecnologias } from '@/components/Cv/Tecnologias'
+
 export default function Home() {
   return (
 
@@ -26,6 +28,7 @@ export default function Home() {
       
       <Sobre />
       <Experiencia />
+      <Tecnologias />
       <Educacao />
       <Indicacoes />
     </main>
