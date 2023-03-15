@@ -16,3 +16,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
